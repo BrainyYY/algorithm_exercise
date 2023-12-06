@@ -1,8 +1,8 @@
 # Exercise 2
 ## Code
 ```cpp
-#include<bits/stdc++>
-using namespace;
+#include<bits/stdc++.h>
+using namespace std;
 int main(){
 
 scanf("%d",&x);
