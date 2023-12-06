@@ -30,7 +30,7 @@
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
-int dp[2520][2520];
+int dp[2520][2520];  // 1 int = 8byte; 1byte = 8 bits; 2520*2520*8/1024/1024~=23.84MB 
 int main()
 {
     int n;
