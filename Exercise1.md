@@ -45,7 +45,7 @@ int main()
             for(int k=s;k>=0;k--)
                 if(dp[j][k])
                 {
-                   dp[j+x][k]=1;
+                   dp[j+x][k]=1; // actually it's bit value;
                    dp[j][k+x]=1;
                 }
         s=s+x;
